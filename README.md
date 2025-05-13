@@ -1,5 +1,7 @@
 # Property Management System
 
+> **Note**: This codebase is provided for example purposes only. It is part of a larger system and is not intended to be a complete, standalone solution. The code demonstrates architectural patterns, coding practices, and implementation approaches that can be used as reference material.
+
 A modern, scalable property management system built with .NET Core, following clean architecture principles and best practices.
 
 ## Architecture Overview
@@ -117,6 +119,4 @@ The API is documented using Swagger/OpenAPI. Access the documentation at `/swagg
 3. Update documentation as needed
 4. Use feature flags for new features
 
-## License
 
-[Specify your license here]
