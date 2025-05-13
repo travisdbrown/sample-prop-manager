@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Audit.NET" Version="21.0.3" />
+    <PackageReference Include="dyVisions.Data.Abstractions" Version="0.1.1-beta.1" />
+    <PackageReference Include="dyVisions.Domain" Version="0.1.0" />
+    <PackageReference Include="dyVisions.Exceptions" Version="0.1.0" />
+    <PackageReference Include="dyVisions.Session" Version="0.1.0" />
+    <PackageReference Include="FluentResults" Version="3.15.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="IdGen.DependencyInjection" Version="3.0.0" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zelu.Infrastructure\Zelu.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

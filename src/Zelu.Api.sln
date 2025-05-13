@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zelu.Property.Domain", "Zelu.Property.Domain\Zelu.Property.Domain.csproj", "{FAB19330-F926-4904-A2B9-4A179FF5439E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zelu.Property.Domain.Test", "Zelu.Property.Domain.Test\Zelu.Property.Domain.Test.csproj", "{3290A873-3EAB-4EB1-A22F-3860E57DA3A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zelu.Property.Persistence", "Zelu.Property.Persistence\Zelu.Property.Persistence.csproj", "{AAB4DADA-2B28-4B1C-B7BC-A85F33C6CFE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zelu.Api", "Zelu.Api\Zelu.Api.csproj", "{D60BE9E7-3141-4AB9-8773-0BB752A60E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zelu.Property.Ac", "Zelu.Property.Ac\Zelu.Property.Ac.csproj", "{7BCA2F6B-83C4-499F-9EA6-EB89ACC7FBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelu.Infrastructure", "Zelu.Infrastructure\Zelu.Infrastructure.csproj", "{FCD25C41-A068-4FF7-9411-478252614A76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB19330-F926-4904-A2B9-4A179FF5439E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB19330-F926-4904-A2B9-4A179FF5439E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB19330-F926-4904-A2B9-4A179FF5439E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB19330-F926-4904-A2B9-4A179FF5439E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3290A873-3EAB-4EB1-A22F-3860E57DA3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3290A873-3EAB-4EB1-A22F-3860E57DA3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3290A873-3EAB-4EB1-A22F-3860E57DA3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3290A873-3EAB-4EB1-A22F-3860E57DA3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB4DADA-2B28-4B1C-B7BC-A85F33C6CFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB4DADA-2B28-4B1C-B7BC-A85F33C6CFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB4DADA-2B28-4B1C-B7BC-A85F33C6CFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB4DADA-2B28-4B1C-B7BC-A85F33C6CFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60BE9E7-3141-4AB9-8773-0BB752A60E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60BE9E7-3141-4AB9-8773-0BB752A60E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60BE9E7-3141-4AB9-8773-0BB752A60E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60BE9E7-3141-4AB9-8773-0BB752A60E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCA2F6B-83C4-499F-9EA6-EB89ACC7FBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCA2F6B-83C4-499F-9EA6-EB89ACC7FBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCA2F6B-83C4-499F-9EA6-EB89ACC7FBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCA2F6B-83C4-499F-9EA6-EB89ACC7FBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD25C41-A068-4FF7-9411-478252614A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD25C41-A068-4FF7-9411-478252614A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD25C41-A068-4FF7-9411-478252614A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD25C41-A068-4FF7-9411-478252614A76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B55F848-95E3-4C5F-AE88-B3BFF019B2C3}
+	EndGlobalSection
+EndGlobal
