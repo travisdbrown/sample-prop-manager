@@ -11,7 +11,7 @@ This solution follows a clean architecture pattern with the following layers:
 - **API Layer** (`Zelu.Api`): RESTful API endpoints and controllers
 - **Domain Layer** (`Zelu.Property.Domain`): Core business logic and entities
 - **Persistence Layer** (`Zelu.Property.Persistence`): Data access and storage
-- **Application Core** (`Zelu.Property.Ac`): Application services and use cases
+- **Anti-corruption Layer** (`Zelu.Property.Ac`): Anti-corruption Layer
 - **Infrastructure** (`Zelu.Infrastructure`): Cross-cutting concerns and external services
 
 ## Key Features
