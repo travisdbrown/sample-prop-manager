@@ -14,6 +14,8 @@ This solution follows a clean architecture pattern with the following layers:
 - **Anti-corruption Layer** (`Zelu.Property.Ac`): Anti-corruption Layer
 - **Infrastructure** (`Zelu.Infrastructure`): Cross-cutting concerns and external services
 
+> **Example Architecture Diagram**: ![Architecture Diagram](zelu-architecture.png)
+
 ## Key Features
 
 - Property management with support for multiple units
