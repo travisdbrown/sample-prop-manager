@@ -113,12 +113,3 @@ The application implements multiple security layers:
 ## API Documentation
 
 The API is documented using Swagger/OpenAPI. Access the documentation at `/swagger` when running the application.
-
-## Contributing
-
-1. Follow the established architecture patterns
-2. Write unit tests for new functionality
-3. Update documentation as needed
-4. Use feature flags for new features
-
-
