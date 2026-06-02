@@ -1,0 +1,59 @@
+﻿/* density-tablet: applied to <body> when screen ≥768px with touch capability.
+   Enforces 56px row heights, 44px minimum touch targets, and 16px minimum gaps
+   across all clinical and scheduling MUI components (UX-DR12).
+   Gap enforcement: form column containers in dialogs use min 16px via the rule
+   below; standalone form containers enforce gap at the component level (gap: 2). */
+
+/* ── Interactive element minimum touch targets ── */
+/* Scoped to Button and IconButton — MuiButtonBase-root also underlies Checkbox,
+   Radio, Switch, and Chip delete actions; min-width: 44px on those would break
+   compact form grids throughout the app. */
+.density-tablet .MuiButton-root,
+.density-tablet .MuiIconButton-root {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* ── List and menu items at 56px ── */
+.density-tablet .MuiListItemButton-root,
+.density-tablet .MuiMenuItem-root {
+  min-height: 56px !important;
+}
+
+/* ── Input fields at comfortable touch height ── */
+.density-tablet .MuiOutlinedInput-root {
+  min-height: 44px;
+}
+
+.density-tablet .MuiInputBase-inputSizeSmall {
+  padding-top: 10.5px !important;
+  padding-bottom: 10.5px !important;
+}
+
+/* ── Form group spacing ── */
+.density-tablet .MuiFormControl-root {
+  margin-bottom: 0;
+}
+
+/* ── ToggleButton minimum size ── */
+.density-tablet .MuiToggleButton-root {
+  min-height: 44px;
+}
+
+/* ── Tab touch targets ── */
+.density-tablet .MuiTab-root {
+  min-height: 56px;
+}
+
+/* ── Prevent double-tap zoom on SVG chart ── */
+/* Removed: DentalChart.tsx already sets touchAction: 'manipulation' unconditionally
+   via its inline sx prop. The global .density-tablet svg rule was redundant and
+   would have suppressed pan/pinch on any other SVG in the app (P-4 fix). */
+
+/* ── 16px minimum gap between form field rows in dialog content (AC4) ── */
+/* Enforces the gap floor inside FollowUpBookingDialog and any future dialogs.
+   Standalone form containers (BookingForm, TreatmentNotesPanel) already use
+   gap: 2 (16px) at the component level and do not need this override. */
+.density-tablet .MuiDialogContent-root > .MuiBox-root {
+  gap: 16px;
+}
